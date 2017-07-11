@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="135a3b8d133bfa00b83c58a12244b0e5" sys_domain="global" table="x_snc_bluebook_blue_book_targets" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>target_month</element>
+            <position>0</position>
+            <sys_created_by>brian.jurasic</sys_created_by>
+            <sys_created_on>2017-07-05 12:45:55</sys_created_on>
+            <sys_id>df5a3b8d133bfa00b83c58a12244b0e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_bluebook_blue_book_targets" sys_domain="global" view="Default view">135a3b8d133bfa00b83c58a12244b0e5</sys_ui_section>
+            <sys_updated_by>brian.jurasic</sys_updated_by>
+            <sys_updated_on>2017-07-05 12:45:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>brian.jurasic</sys_created_by>
+            <sys_created_on>2017-07-05 12:45:55</sys_created_on>
+            <sys_id>535a3b8d133bfa00b83c58a12244b0e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_bluebook_blue_book_targets" sys_domain="global" view="Default view">135a3b8d133bfa00b83c58a12244b0e5</sys_ui_section>
+            <sys_updated_by>brian.jurasic</sys_updated_by>
+            <sys_updated_on>2017-07-05 12:45:55</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lower_boundary</element>
+            <position>2</position>
+            <sys_created_by>brian.jurasic</sys_created_by>
+            <sys_created_on>2017-07-05 12:45:55</sys_created_on>
+            <sys_id>d35a3b8d133bfa00b83c58a12244b0e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_bluebook_blue_book_targets" sys_domain="global" view="Default view">135a3b8d133bfa00b83c58a12244b0e5</sys_ui_section>
+            <sys_updated_by>brian.jurasic</sys_updated_by>
+            <sys_updated_on>2017-07-05 12:45:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>brian.jurasic</sys_created_by>
+            <sys_created_on>2017-07-05 12:45:55</sys_created_on>
+            <sys_id>575a3b8d133bfa00b83c58a12244b0e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_bluebook_blue_book_targets" sys_domain="global" view="Default view">135a3b8d133bfa00b83c58a12244b0e5</sys_ui_section>
+            <sys_updated_by>brian.jurasic</sys_updated_by>
+            <sys_updated_on>2017-07-05 12:45:55</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>upper_boundary</element>
+            <position>4</position>
+            <sys_created_by>brian.jurasic</sys_created_by>
+            <sys_created_on>2017-07-05 12:45:55</sys_created_on>
+            <sys_id>d75a3b8d133bfa00b83c58a12244b0e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_bluebook_blue_book_targets" sys_domain="global" view="Default view">135a3b8d133bfa00b83c58a12244b0e5</sys_ui_section>
+            <sys_updated_by>brian.jurasic</sys_updated_by>
+            <sys_updated_on>2017-07-05 12:45:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_snc_bluebook_blue_book_targets</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>brian.jurasic</sys_created_by>
+            <sys_created_on>2017-07-05 12:45:55</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>135a3b8d133bfa00b83c58a12244b0e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_bluebook_blue_book_targets</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Blue Book" source="x_snc_bluebook">fa9d96631367b600b83c58a12244b087</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Blue Book">fa9d96631367b600b83c58a12244b087</sys_scope>
+            <sys_update_name>sys_ui_section_135a3b8d133bfa00b83c58a12244b0e5</sys_update_name>
+            <sys_updated_by>brian.jurasic</sys_updated_by>
+            <sys_updated_on>2017-07-05 12:45:55</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

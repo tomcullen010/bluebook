@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Bluebook M2m Blue Book Ta Blue Books" max_length="40" name="x_snc_bluebook_m2m_blue_book_ta_blue_books" type="collection">
+        <element label="Blue Book" max_length="32" name="blue_book" reference="x_snc_bluebook_blue_book" type="reference"/>
+        <element label="Blue Book Targets" max_length="32" name="blue_book_targets" reference="x_snc_bluebook_blue_book_targets" type="reference"/>
+        <index name="index">
+            <element name="blue_book"/>
+        </index>
+        <index name="index2">
+            <element name="blue_book_targets"/>
+        </index>
+    </element>
+</database>

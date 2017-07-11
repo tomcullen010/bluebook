@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Blue Book Targets" max_length="40" name="x_snc_bluebook_blue_book_targets" type="collection">
+        <element label="Lower Boundary" max_length="40" name="lower_boundary" type="string"/>
+        <element label="MetricID" max_length="32" name="metricid" reference="x_snc_bluebook_blue_book" type="reference"/>
+        <element label="Target Month" max_length="40" name="target_month" type="glide_date"/>
+        <element label="Upper Boundary" max_length="40" name="upper_boundary" type="string"/>
+        <index name="index">
+            <element name="metricid"/>
+        </index>
+    </element>
+</database>

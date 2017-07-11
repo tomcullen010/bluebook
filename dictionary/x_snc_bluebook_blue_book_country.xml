@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Blue Book Country" max_length="40" name="x_snc_bluebook_blue_book_country" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Code" max_length="40" name="code" type="string"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+    </element>
+</database>

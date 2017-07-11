@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Blue Book" max_length="40" name="x_snc_bluebook_blue_book" type="collection">
+        <element label="Category" max_length="40" name="category" type="string"/>
+        <element label="Country" max_length="40" name="country" reference="x_snc_bluebook_blue_book_country" type="string"/>
+        <element label="Definition" max_length="4000" name="definition" type="string"/>
+        <element label="Formula" max_length="40" name="formula" type="string"/>
+        <element label="KPI Number" max_length="40" name="kpi_number" type="string"/>
+        <element label="MetricID" max_length="40" name="metricid" type="string"/>
+        <element label="Metric Name" max_length="100" name="metric_name" type="string"/>
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="OneSlider Name" max_length="100" name="oneslider_name" type="string"/>
+        <element label="Region" max_length="40" name="region" reference="x_snc_bluebook_blue_book_regions" type="string"/>
+        <element label="Sub-Category" max_length="40" name="sub_category" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Unit" max_length="40" name="unit" type="string"/>
+        <index name="index">
+            <element name="metricid"/>
+        </index>
+    </element>
+</database>

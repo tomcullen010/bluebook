@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Blue Book Metrics" max_length="40" name="x_snc_bluebook_blue_book_metrics" type="collection">
+        <element label="MetricKey" max_length="32" name="metrickey" reference="x_snc_bluebook_blue_book" reference_qual="metricidISNOTEMPTY^EQ" reference_qual_condition="metricidISNOTEMPTY^EQ" type="reference"/>
+        <element label="Metric Month" max_length="40" name="metric_month" type="glide_date"/>
+        <element label="Metric Value" max_length="40" name="metric_value" type="string"/>
+        <index name="index">
+            <element name="metrickey"/>
+        </index>
+    </element>
+</database>
