@@ -3,18 +3,18 @@
     <sys_ui_list parent="" relationship="" sys_domain="global" table="x_snc_bluebook_blue_book" version="2" view="sys_ref_list">
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>number</element>
-            <list_id display_value="x_snc_bluebook_blue_book" element="NULL" name="x_snc_bluebook_blue_book" parent="NULL" relationship="NULL" sys_domain="global" view="82a427638c21320092c0afb9ff6cd42c">ca3e427213f77240b83c58a12244b012</list_id>
+            <element>metricid</element>
+            <list_id display_value="x_snc_bluebook_blue_book" element="NULL" name="x_snc_bluebook_blue_book" parent="NULL" relationship="NULL" sys_domain="global" view="82a427638c21320092c0afb9ff6cd42c">7ad1e3cb13b7b240b83c58a12244b06c</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
-            <sys_created_by>brian.jurasic</sys_created_by>
-            <sys_created_on>2017-07-10 15:22:48</sys_created_on>
-            <sys_id>463e427213f77240b83c58a12244b013</sys_id>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2017-07-11 16:06:42</sys_created_on>
+            <sys_id>fed1e3cb13b7b240b83c58a12244b06c</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>brian.jurasic</sys_updated_by>
-            <sys_updated_on>2017-07-10 15:22:48</sys_updated_on>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2017-07-11 16:06:42</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -27,12 +27,12 @@
             <relationship/>
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
-            <sys_created_by>brian.jurasic</sys_created_by>
-            <sys_created_on>2017-07-10 15:22:48</sys_created_on>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2017-07-11 16:06:42</sys_created_on>
             <sys_customer_update>true</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>ca3e427213f77240b83c58a12244b012</sys_id>
+            <sys_id>7ad1e3cb13b7b240b83c58a12244b06c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_snc_bluebook_blue_book</sys_name>
             <sys_package display_value="Blue Book" source="x_snc_bluebook">fa9d96631367b600b83c58a12244b087</sys_package>
@@ -40,8 +40,8 @@
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Blue Book">fa9d96631367b600b83c58a12244b087</sys_scope>
             <sys_update_name>sys_ui_list_x_snc_bluebook_blue_book_sys_ref_list</sys_update_name>
-            <sys_updated_by>brian.jurasic</sys_updated_by>
-            <sys_updated_on>2017-07-10 15:22:48</sys_updated_on>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2017-07-11 16:06:42</sys_updated_on>
             <sys_user/>
             <view display_value="Reference List" name="sys_ref_list">82a427638c21320092c0afb9ff6cd42c</view>
             <view_name/>
